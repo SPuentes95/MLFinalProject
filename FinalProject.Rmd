@@ -34,7 +34,7 @@ PMLtesting = PMLtesting[, !exclude_paramtrs]
 
 PMLtraining = PMLtraining[, !grepl("window|name|timestamp",names(PMLtraining))]
 PMLtesting = PMLtesting[, !grepl("window|name|timestamp",names(PMLtesting))]
-
+set.seed(1234)
 ```
 
 ## Pre-Processing
